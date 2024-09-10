@@ -1,0 +1,61 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'thejamsil';
+    src: url('TheJamsilOTF5Bold.eot');
+    src: url('TheJamsilOTF5Bold.eot?#iefix') format('embedded-opentype'),
+        url('TheJamsilOTF5Bold.woff2') format('woff2'),
+        url('TheJamsilOTF5Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.section {
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0;
+    
+}
+.section h1{
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.section .item_list {
+    width: 1600px;
+    display: flex;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+.section .item_list .item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.section .item_list .item .text{
+    padding: 10px;
+}
+.section .item_list .item .text p{
+    font-size: 15px;
+    height: 50px;
+    font-family: 'thejamsil';
+    
+}
+.section .item_list .item .text strong span{
+    color:#888;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.section .item_list .item .text h2{
+    font-size: 18px;
+}
